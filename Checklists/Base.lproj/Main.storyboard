@@ -36,7 +36,7 @@
                     <navigationItem key="navigationItem" title="Checklists" id="79c-vG-Pox">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="8Tk-av-DlM">
                             <connections>
-                                <segue destination="g7z-3w-88v" kind="presentation" id="1iW-VL-Qha"/>
+                                <segue destination="g7z-3w-88v" kind="presentation" identifier="AddItem" id="1iW-VL-Qha"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -64,9 +64,10 @@
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Item" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Thx-R5-EAd">
                                                     <rect key="frame" x="8" y="5" width="584" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
                                                         <action selector="done" destination="cFJ-rH-Mxo" eventType="editingDidEndOnExit" id="6Jk-mT-zOo"/>
+                                                        <outlet property="delegate" destination="cFJ-rH-Mxo" id="5LN-4o-HWw"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -93,6 +94,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="doneBarButton" destination="lgQ-XZ-5fK" id="Ura-GL-Pja"/>
                         <outlet property="textField" destination="Thx-R5-EAd" id="mTF-mu-B0l"/>
                     </connections>
                 </tableViewController>

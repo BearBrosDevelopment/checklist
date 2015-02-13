@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Checklists/ChecklistViewController.swift"
+            timestampString = "445498439.534435"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ChecklistViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Checklists.ChecklistViewController.__ivar_destroyer"
+                  moduleName = "Checklists"
+                  urlString = "file:///Users/denzelcarter/Documents/SwiftProjects/Checklists/Checklists/ChecklistViewController.swift"
+                  timestampString = "445499786.654856"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ChecklistViewController.init (Checklists.ChecklistViewController.Type)(style : C.UITableViewStyle) -&gt; Checklists.ChecklistViewController"
+                  moduleName = "Checklists"
+                  urlString = "file:///Users/denzelcarter/Documents/SwiftProjects/Checklists/Checklists/ChecklistViewController.swift"
+                  timestampString = "445499786.655008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ChecklistViewController.init (Checklists.ChecklistViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Checklists.ChecklistViewController"
+                  moduleName = "Checklists"
+                  urlString = "file:///Users/denzelcarter/Documents/SwiftProjects/Checklists/Checklists/ChecklistViewController.swift"
+                  timestampString = "445499786.655178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ChecklistViewController.init (Checklists.ChecklistViewController.Type)() -&gt; Checklists.ChecklistViewController"
+                  moduleName = "Checklists"
+                  urlString = "file:///Users/denzelcarter/Documents/SwiftProjects/Checklists/Checklists/ChecklistViewController.swift"
+                  timestampString = "445499786.655329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
