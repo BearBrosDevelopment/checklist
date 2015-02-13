@@ -14,6 +14,7 @@
 		065C6E291A8D29C10031C75C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065C6E271A8D29C10031C75C /* LaunchScreen.xib */; };
 		065C6E351A8D29C10031C75C /* ChecklistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C6E341A8D29C10031C75C /* ChecklistsTests.swift */; };
 		065C6E3F1A8D3C370031C75C /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C6E3E1A8D3C370031C75C /* ChecklistItem.swift */; };
+		065C6E411A8D7F100031C75C /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C6E401A8D7F100031C75C /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		065C6E331A8D29C10031C75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065C6E341A8D29C10031C75C /* ChecklistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsTests.swift; sourceTree = "<group>"; };
 		065C6E3E1A8D3C370031C75C /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		065C6E401A8D7F100031C75C /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				065C6E271A8D29C10031C75C /* LaunchScreen.xib */,
 				065C6E1C1A8D29C10031C75C /* Supporting Files */,
 				065C6E3E1A8D3C370031C75C /* ChecklistItem.swift */,
+				065C6E401A8D7F100031C75C /* AddItemViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				065C6E211A8D29C10031C75C /* ChecklistViewController.swift in Sources */,
+				065C6E411A8D7F100031C75C /* AddItemViewController.swift in Sources */,
 				065C6E3F1A8D3C370031C75C /* ChecklistItem.swift in Sources */,
 				065C6E1F1A8D29C10031C75C /* AppDelegate.swift in Sources */,
 			);
